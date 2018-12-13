@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>singleton</module>
+        <module>factory-simple</module>
+        <module>factory-method</module>
+        <module>factory-abstract</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
