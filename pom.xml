@@ -13,12 +13,14 @@
         <module>factory-simple</module>
         <module>factory-method</module>
         <module>factory-abstract</module>
+        <module>adapter</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
         <compiler.version>3.7.0</compiler.version>
         <junit.version>4.12</junit.version>
         <spring-boot.version>1.3.3.RELEASE</spring-boot.version>
+        <lombok.version>1.16.16</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -29,6 +31,11 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
