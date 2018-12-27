@@ -26,6 +26,11 @@ public class RatePlanService {
         processors.add(new ReferPriceUpdateAdapter());
     }
 
+    /**
+     * rateplan入口，传入请求， 返回结果
+     * @param request
+     * @return
+     */
     public RatePlanResponse ratePlan(RatePlanRequest request) {
         RatePlanResponse response = new RatePlanResponse(Arrays.asList(new RatePlanResponse.RatePlan("123","two breakfast","CNY 33.51")));
         System.out.println("请求供应商接口并返回供应商结果，转成RatePlanResponse...");
