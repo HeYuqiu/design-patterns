@@ -14,6 +14,7 @@
         <module>factory-method</module>
         <module>factory-abstract</module>
         <module>adapter</module>
+        <module>strategy</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
