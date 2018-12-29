@@ -3,7 +3,7 @@ package com.hyq.proxy;
 /**
  * Created by heyuqiu on 2018/12/29.
  */
-public class App {
+public class App_StaticProxy {
     public static void main(String[] args) {
         IServerConnect serverConnect = new SupplierServerConnect();         // 被代理对象
         ServerConnectProxy proxy = new ServerConnectProxy(serverConnect);   // 代理对象
