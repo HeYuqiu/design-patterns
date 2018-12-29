@@ -1,6 +1,6 @@
 # 适配器模式
 
-```java
+```
 /**
 * 本demo实现场景：酒店rateplan接口获取数据后，会经过一系列RatePlan-Processor的处理，
 * 后来加需求：RatePlan需要执行ReferPrice的一个processor处理

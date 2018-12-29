@@ -15,6 +15,7 @@
         <module>factory-abstract</module>
         <module>adapter</module>
         <module>strategy</module>
+        <module>proxy</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
