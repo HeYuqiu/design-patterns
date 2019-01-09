@@ -16,6 +16,7 @@
         <module>adapter</module>
         <module>strategy</module>
         <module>proxy</module>
+        <module>observer</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
