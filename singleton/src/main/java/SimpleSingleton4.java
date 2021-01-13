@@ -16,6 +16,7 @@ public final class SimpleSingleton4 {
     private volatile static SimpleSingleton4 instance = null;
 
     private SimpleSingleton4() {
+        System.out.println("init");
     }
 
     public static SimpleSingleton4 getInstance() {
