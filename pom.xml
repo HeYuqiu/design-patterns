@@ -17,6 +17,7 @@
         <module>strategy</module>
         <module>proxy</module>
         <module>observer</module>
+        <module>template-pattern</module>
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
